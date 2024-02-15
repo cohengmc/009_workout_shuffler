@@ -1,0 +1,20 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1682685794761-c8e7b2347702?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8Mjl8fGhpa2luZ3xlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: 0 0 1px black;
+}
+
+#start-btn {
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    padding: 1em 3em;
+    border-radius: 4px;
+}
