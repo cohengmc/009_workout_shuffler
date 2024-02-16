@@ -2,6 +2,7 @@ let hasWorkoutType = false
 let hasCompletedWorkout = false
 let message = "ERROR"
 let directionsEl = document.getElementById("directions")
+let workouts = ["Crossfit", "Gymnastics", "Weightlifting", "Run"]
 
 function startCoaching() {
     if (!hasWorkoutType) {
