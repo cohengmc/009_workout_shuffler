@@ -4,6 +4,9 @@ body {
     background-repeat: no-repeat;
     background-color: lightblue;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -11,10 +14,24 @@ h1 {
     text-shadow: 0 0 1px black;
 }
 
-#start-btn {
+.btn {
     background-color: white;
     border: none;
     font-weight: bold;
-    padding: 1em 3em;
+    padding: 1em 0;
     border-radius: 4px;
+    text-transform: uppercase;
+    margin: .5em 0;
+    width: 15em;
+}
+
+#workouts {
+    display: flex;
+}
+
+#workouts h3 {
+    margin: 1em;
+    padding: .1em .3em;
+    border: 2px solid black;
+    border-radius: 16px;
 }

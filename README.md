@@ -10,3 +10,5 @@ Did you workout today?
 
 Geoffrey Cohen - 15FEB24
 HTML/CSS/JS Project
+
+meh ok, this isn't my best project, not very DRY code, def could use some js that manipulates CSS, but we're not there yet in scrimba and I don't want to get ahead of myself. Just wanted a little extra project practice. I think next time I need to finish the whole scrimba and then base the project on the list of learning objectives

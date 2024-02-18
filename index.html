@@ -4,12 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Workout Shuffler</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1>Let's Workout!</h1>
-    <button id="start-btn" onclick="startCoaching()">GET STARTED</button>
-    <p id="directions"></p>
+    <button id="start-btn" class="btn" onclick="startCircuit()">
+      start circuit
+    </button>
+    <p id="directions">What's your workout today?</p>
+    <div id="workouts">
+        <h3 id="crossfit">Crossfit</h3>
+        <h3 id="gymnastics">Gymnastics</h3>
+        <h3 id="weightlifting">Weightlifting</h3>
+        <h3 id="run">Run</h3>
+    </div>
+    <button id="workout-btn" class="btn" onclick="newWorkout()">
+      New Workout
+    </button>
     <script src="index.js"></script>
   </body>
 </html>
